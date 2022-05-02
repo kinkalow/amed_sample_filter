@@ -1,0 +1,6 @@
+/* すべての列に対してのフィルタ */
+input#filter_all_btn {
+}
+input#filter_all_txt {
+  width: 100%;
+}
