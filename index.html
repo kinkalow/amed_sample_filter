@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <title></title>
-    <script type="text/javascript" src="./js/csv.js"></script>
+    <script type="module" src="./js/csv.js"></script>
+    <script type="module" src="./js/filter.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/sample.css" />
   </head>
   <body>
-    <input id="filter_all_btn" type="button" onclick="filter_samples()" />
+    <input type="button" onclick="filter_all()" />
     <input id="filter_all_txt" type="text" />
     <div id="sample_number"></div>
     <table id="output_sample"></table>
